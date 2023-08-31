@@ -14,7 +14,7 @@ public class ConditionSolve3 {
         // 구현시작
         if (age <= 19 || age >= 60){
             System.out.println("할인대상입니다.");
-        }else {
+        } else {
             System.out.println("할인 대상이 아닙니다.");
         }
 
