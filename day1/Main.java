@@ -23,7 +23,7 @@ public class Main {
         // 문자와 숫자를 더하기
         System.out.println(100 + "살" + "홍길동입니다.");
 
-        // 문자 포맷을 이용한 출력g
+        // 문자 포맷을 이용한 출력
         // %d -> 숫자값이 들어간다.
         System.out.printf("%d살 홍길동입니다.\n", 25);
         System.out.printf("%d년생 %d살 홍길동 입니다.\n", 1999, 25);
