@@ -19,7 +19,7 @@ public class LoopSolve4 {
         }
 
         for (int i = min; i <= max ; i++) {
-            System.out.println(i);
+            System.out.printf("%d ", i);
         }
     }
 }
