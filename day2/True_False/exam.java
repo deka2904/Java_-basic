@@ -1,4 +1,4 @@
-package day1.True_False;
+package day2.True_False;
 // 문제 : 실행되는 출력문에는 참 그렇지 않으면 거짓 이라고 적어주세요.
 
 public class exam {

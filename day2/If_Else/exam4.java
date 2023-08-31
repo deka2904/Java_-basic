@@ -1,4 +1,4 @@
-package day1.If_Else;
+package day2.If_Else;
 /*
 어떤 차의 높이가 170cm 입니다..
 
