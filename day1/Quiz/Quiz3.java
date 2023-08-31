@@ -1,4 +1,4 @@
-package Quiz;
+package day1.Quiz;
 import java.util.Random;
 
 public class Quiz3 {

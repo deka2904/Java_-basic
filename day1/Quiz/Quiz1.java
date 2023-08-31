@@ -1,4 +1,4 @@
-package Quiz;
+package day1.Quiz;
 
 public class Quiz1 {
     public static void main(String[] args) {
