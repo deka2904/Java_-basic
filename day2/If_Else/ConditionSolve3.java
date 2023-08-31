@@ -5,7 +5,7 @@ package day2.If_Else;
 // 조건 : `구현시작` 부분만 수정 할 수 있습니다..
 // 조건 : 2가지 이상의 방법으로 풀어야 합니다.
 
-public class exam3 {
+public class ConditionSolve3 {
     public static void main(String[] args) {
         int age = 21; // 이 값을 바꿔가면서 실행해보세요.
 

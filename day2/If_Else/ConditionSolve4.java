@@ -9,7 +9,7 @@ package day2.If_Else;
 차가 모든 터널을 무사히 잘 통과하면 PASS 를 출력하고, 충돌한다면 CRASH 를 출력하세요.
 */
 
-public class exam4 {
+public class ConditionSolve4 {
     public static void main(String[] args) {
         int tunnel1 = 180;
         int tunnel2 = 182;
