@@ -17,11 +17,18 @@ public class DoubleArraySolve1 {
         */
 
         int[][] rearr = new int[4][4];
-
+        /*        {
+        {4,3,2,1},
+        {8,7,6,5},
+        {12,11,10,9},
+        {16,15,14,13}
+        }        */
+        //         4         4
         for (int i = 0; i < darr.length ; i++) {
+            //   j =  darr[0].길이 ->  3       0
             for (int j = darr[i].length - 1, k = 0; j >= 0; j--, k++) {
-               //     3  0         3  3
-                rearr[i][k] = darr[i][j];
+                //    3  0         3  3
+                rearr[i][k] = darr[i][j]; //
                 System.out.print(rearr[i][k] + " ");
             }
             System.out.println();
