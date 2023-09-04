@@ -1,4 +1,4 @@
-package day4.ClassEx.Solve3;
+package day4.Class.ClassEx.Solve3;
 // ===========================================================
 // Person, Car, Cat, Warrior 클래스 만들기
 class Person{

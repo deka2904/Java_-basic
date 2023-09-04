@@ -1,4 +1,4 @@
-package day4.ClassEx.Solve1;
+package day4.Class.ClassEx.Solve1;
 
 // 문제 : 자동차가 3번 달리게 해주세요.
 // 출력 : 자동차가 달립니다.

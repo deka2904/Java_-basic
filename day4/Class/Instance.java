@@ -1,6 +1,4 @@
-package day4;
-
-import javax.swing.*;
+package day4.Class;
 
 class Person{
     String Name;

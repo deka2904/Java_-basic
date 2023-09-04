@@ -7,9 +7,12 @@ public class programmers {
 class Solution {
     public int solution(String my_string) {
         int answer = 0;
+        
         for (int i = 0; i < my_string.length(); i++){
-
+            answer = Integer.valueOf(my_string.charAt(i));
+            System.out.println(answer);
         }
+        System.out.println(answer);
         return answer;
     }
 }
