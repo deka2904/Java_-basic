@@ -1,18 +1,23 @@
+import javax.swing.*;
+import java.util.Arrays;
+
 public class programmers {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        solution.solution("aAb1B2cC34oOp");
+//        int[] array = new int[]{1, 2, 7, 10, 11};
+        solution.solution(144);
     }
 }
 class Solution {
-    public int solution(String my_string) {
+    public int solution(int n) {
         int answer = 0;
-        
-        for (int i = 0; i < my_string.length(); i++){
-            answer = Integer.valueOf(my_string.charAt(i));
-            System.out.println(answer);
+        double num = Math.sqrt((double)n);
+        if (Math.pow(num, 2) == (double) n){
+            answer = 1;
+            return answer;
+        }else {
+            answer = 2;
+            return answer;
         }
-        System.out.println(answer);
-        return answer;
     }
 }
