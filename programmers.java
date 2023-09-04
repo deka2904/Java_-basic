@@ -1,21 +1,15 @@
 public class programmers {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        solution.solution("abcdef", "f");
+        solution.solution("aAb1B2cC34oOp");
     }
 }
 class Solution {
-    public String solution(String my_string, String letter) {
-        String answer = "";
-        String s = "";
-        for (int i = 0; i < my_string.length() ; i++) {
-            System.out.println(my_string.charAt(i));
-            s = String.valueOf(my_string.charAt(i));
-            if (s == letter)
-                continue;
-            answer += s;
+    public int solution(String my_string) {
+        int answer = 0;
+        for (int i = 0; i < my_string.length(); i++){
+
         }
-        System.out.print(answer);
         return answer;
     }
 }

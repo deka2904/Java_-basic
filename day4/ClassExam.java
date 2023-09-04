@@ -17,7 +17,7 @@ class Student{
         System.out.println("안녕하세요." + home + "사는 " + Name + "입니다.\n나이는 " + age + "살입니다.\n전화번호는 " + PhoneNum + "입니다.");
     }
 }
-public class Clazz {
+public class ClassExam {
     // 함수
     public static void introduce(Student student){ //-> ()안에 클래스 정의한거 쓰고 변수 명 써주면 클래스가 함수에 들어갑니다.
 

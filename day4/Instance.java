@@ -1,5 +1,7 @@
 package day4;
-// 인스턴스(복사본, 객체)
+
+import javax.swing.*;
+
 class Person{
     String Name;
     int Age;
@@ -9,7 +11,28 @@ class Person{
         System.out.println("안녕하세요." + Home + "사는 " + Name + "입니다.\n나이는 " + Age + "살입니다.");
     }
 }
+class Cat{
+    int age;
+    String kind;
+    String name;
+    String color;
 
+    public void meow(){
+        System.out.println(color + "고양이가 야옹하고 웁니다.");
+    }
+}
+class Computer{
+    double cpu;
+    int ram;
+    int ssd;
+
+    public void poweron(){
+        System.out.println("컴퓨터 전원이 켜집니다.");
+    }
+    public void poweroff(){
+        System.out.println("컴퓨터 전원이 꺼집니다.");
+    }
+}
 public class Instance {
     public static void main(String[] args) {
         Person p1 = new Person();
@@ -24,7 +47,14 @@ public class Instance {
         p2.Age = 20;
         p2.Home = "서울";
 
-        p1.introduce();
+        p2.introduce();
 
+        Cat cat = new Cat();
+        cat.color = "blue";
+        cat.meow();
+
+        Computer computer = new Computer();
+        computer.poweron();
+        computer.poweroff();
     }
 }
