@@ -28,7 +28,7 @@ class 흰오리 extends 오리 {
 class 청둥오리 extends 오리 {
 
 }
-class 고무오리 {
+class 고무오리 extends 오리 {
     void 날다() {
         System.out.println("저는 날 수 없어요. ㅜㅠ");
     }
