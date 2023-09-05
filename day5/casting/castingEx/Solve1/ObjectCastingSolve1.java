@@ -1,4 +1,4 @@
-package day5.casting.castingEx;
+package day5.casting.castingEx.Solve1;
 class 무기{
     public void 공격(){
 
@@ -15,7 +15,7 @@ class 칼 extends 무기{
         System.out.println("칼로 공격합니다.");
     }
 }
-public class ObjectCastingSolve {
+public class ObjectCastingSolve1 {
     public static void main(String[] args) {
         무기 a무기 = new 칼();
         a무기.공격();

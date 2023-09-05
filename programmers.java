@@ -5,26 +5,13 @@ import java.util.Arrays;
 public class programmers {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] arr = new int[]{1, 2, 3, 100, 99, 98};
-        solution.solution(arr);
+//        int[] arr = new int[]{1, 2, 3, 100, 99, 98};
+        solution.solution("123456789");
     }
 }
 class Solution {
-    public int[] solution(int[] arr) {
-        int[] answer = {};
-        for (int i = 0; i < arr.length ; i++) {
-            if(arr[i] < 50){
-                if(arr[i] % 2 == 1){
-                    arr[i] *= 2;
-                    System.out.println(arr[i]);
-                }
-            } else if(arr[i] >= 50){
-                if(arr[i] % 2 == 0){
-                    arr[i] /= 2;
-                    System.out.println(arr[i]);
-                }
-            }
-        }
+    public int solution(String num_str) {
+        int answer = 0;
         return answer;
     }
 }
