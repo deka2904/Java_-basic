@@ -10,9 +10,7 @@ class Student{
     static String home = "대전";
 
     static String BankNum;
-
     int[] arr = new int[]{1,2,3};
-    
     public static void introduce(){
         System.out.println("안녕하세요." + home + "사는 " + Name + "입니다.\n나이는 " + age + "살입니다.\n전화번호는 " + PhoneNum + "입니다.");
     }
