@@ -1,7 +1,7 @@
 package day5.casting.castingEx;
 class 무기{
     public void 공격(){
-        System.out.println("공격합니다.");
+
     }
 }
 class 활 extends 무기{
