@@ -1,4 +1,4 @@
-package day6.constructor.constructorEX;
+package day6.constructor.constructorEX.Solve1;
 
 class Person{
     int age;
@@ -62,7 +62,7 @@ class Warrior {
         System.out.printf("%s이 %d 데미지를 방어합니다..\n", name, defense);
     }
 }
-public class ConstructorSolve {
+public class ConstructorSolve1 {
     // 다음 클래스들을 생성자를 이용해 간단하게 값을 세팅해주세요.
     public static void main(String[] args) {
         Person p1 = new Person(27, "홍길동"); // 사람이 태어납니다.

@@ -1,12 +1,14 @@
 public class programmers {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        solution.solution("    programmers  ");
+        solution.solution("aaa");
     }
 }
 class Solution {
-    public String[] solution(String my_string) {
-        String[] answer = my_string.trim().split("\\s+");
+    public String solution(String myString) {
+        String answer = "";
+        answer = myString.toLowerCase();
+        System.out.println(answer);
         return answer;
     }
 }
