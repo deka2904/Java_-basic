@@ -3,6 +3,7 @@ package day6.constructor.constructorEX.Solve3;
 
 class 사람 {
     팔 a왼팔 = new 팔(100);
+
     public void 걷다() {
         System.out.println("사람 걷는다.");
     }
