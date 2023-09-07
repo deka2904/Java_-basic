@@ -30,7 +30,5 @@ public class DataTypeSolve2 {
         System.out.println("double의 최대값 : " + Double.MAX_VALUE);
 
         boolean bl; // 1 bit
-        System.out.println("boolean의 최소값 : " + Boolean.TRUE);
-        System.out.println("boolean의 최대값 : " + Boolean.FALSE);
     }
 }

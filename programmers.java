@@ -1,27 +1,31 @@
-import java.io.Writer;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class programmers {
     public static void main(String[] args) {
         Solution solution = new Solution();
-//        String[] str_list = new String[]{"abc", "def", "ghi"};
-//        int[][] parts = new int[][] {{0, 4}, {1, 2}, {3, 5}, {7,7}};
-        int[] num_list = new int[]{2, 1, 6};
-//        int[] num_list = new int[]{4, 2, 6, 1, 7, 6};
-        solution.solution("abcdevwxyz");
+        int[][] arr = new int[][]{{19, 498, 258, 587}, {63, 93, 7, 754}, {258, 7, 1000, 723}, {587, 754, 723, 81}};
+//        int[] array = new int[]{1, 8, 3};
+//        String[] arr = new String[]{"a","b","c"};
+//        boolean[] finished = new boolean[]{true, false, true, false};
+        solution.solution(arr);
     }
 }
 class Solution {
-    public String solution(String myString) {
-        String answer = "";
-        char num = 0;
-        for (int i = 0; i < myString.length() ; i++) {
-            System.out.println(myString.charAt(i));
-            if (myString.charAt(i) < 108){
-//                num = 108;
-//                 = num;
+    public int solution(int[][] arr) {
+        int answer = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if (arr[i][j] == arr[j][i]) {
+                    answer = 1;
+                    System.out.println(answer);
+                } else {
+                    answer = 0;
+                    System.out.println(answer);
+                    return answer;
+                }
             }
         }
-        return answer;
+        return  answer;
     }
 }
