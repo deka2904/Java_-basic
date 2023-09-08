@@ -9,7 +9,7 @@ public class ExceptionSolve {
         while (true) {
             try {
 //                int age = Integer.parseInt(scanner.nextLine());
-                int age = scanner.nextInt();
+                int age = Integer.parseInt(scanner.nextLine());
                 if (age <= 0) {
                     System.out.print("0보다 커야합니다. : ");
                 } else {
